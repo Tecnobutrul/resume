@@ -14,7 +14,7 @@ jobs:
       theme: hugo-devresume-theme
       git-user: tecnobutrul
       git-mail: d.delrio.figueira@gmail.com
-      domain: tecnobutrul.github.io
+      domain: resume.ddelrio.ga
     runs-on: ubuntu-20.04
     steps:
       - name: Git checkout
