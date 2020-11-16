@@ -1,0 +1,164 @@
+# age settings
+
+baseURL = "https://resume.ddelrio.ga"
+languageCode = "en"
+title = "Daniel Del Río Resume"
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-XXXXXXX-Y"
+
+
+[params]
+    author = "Daniel Del Río"
+    description = "Daniel del Río Resume"
+
+
+    primaryColor = "#54B689"
+    textPrimaryColor = "#292929"
+
+
+    [params.profile]
+        enable = true
+        name = "Daniel del Río Figueira"
+        tagline = "Systems Administrator"
+        #avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "Santiago de Compostela"
+        #printedVersion = "resume.pdf"
+
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:d.delrio.figueira@gmail.com"
+        text = "d.delrio.figueira@gmail.com"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://resume.ddelrio.ga"
+        text = "resume.ddelrio.ga"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+
+        [[params.skills.list.items]]
+        details = "Kubernetes"
+        percentage = "85"
+        [[params.skills.list.items]]
+        details = "Python/Bash"
+        percentage = "90"
+        [[params.skills.list.items]]
+        details = "Grafana"
+        percentage = "75"
+        [[params.skills.list.items]]
+        details = "Prometheus"
+        percentage = "85"
+
+        [[params.skills.list.items]]
+        details = "GCP/Azure"
+        percentage = "85"
+        [[params.skills.list.items]]
+        details = "Helm"
+        percentage = "90"
+        [[params.skills.list.items]]
+        details = "Terraform"
+        percentage = "75"
+        [[params.skills.list.items]]
+        details = "Docker"
+        percentage = "90"
+
+    [params.aptitudes]
+        enable = true
+        [[params.aptitudes.list]]
+        [[params.aptitudes.list.items]]
+        details = "Effective communication"
+        [[params.aptitudes.list.items]]
+        details = "Team player"
+        [[params.aptitudes.list.items]]
+        details = "Adaptable"
+
+
+    [params.education]
+        enable = true
+
+        [[params.education.list]]
+        degree = "Certificate of Higher Education in Systems Admistration"
+        university = "Instituto San Clemente"
+        dates = "2017 - 2019"
+
+    [params.awards]
+        enable = false
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "B1"
+        [[params.languages.list]]
+        name = "Spanish"
+        level = "Native"
+        [[params.languages.list]]
+        name = "Galician"
+        level = "Native"
+
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Travelling"
+        [[params.interests.list]]
+        name = "Tennis"
+        [[params.interests.list]]
+        name = "Videogames"
+
+    [params.summary]
+        enable = true
+        text = "Motivated systems administrator focused on automation and cloud environments. hands on experience automating infrastructure and managing, deploying and monitoring high availability applications. Capable to code scripts to automate tasks, consuming APIs. Proven ability to stablish and mantain excellent relationships with clients as well as with coworkers."
+
+    [params.experience]
+        enable = true
+
+        [[params.experience.list]]
+        title = "Cloud Systems Administrator"
+        dates = "Jul 2019 - Present"
+        company = "Prefapp Cloud Consulting"
+        details = "Working in multiple projects, managing and monitoring their cloud infraestructure. Introduced devops practices such as gitops helping developers to easily deploy their code to diferent environments. Desing and develop Helm Charts deployed using CICD pipelines."
+        [[params.experience.list.items]]
+        details = "Automated infraestructure deployments with Terraform."
+        [[params.experience.list.items]]
+        details = "Design and implementation of automated deployments using github actions and azure pipelines."
+        [[params.experience.list.items]]
+        details = "Desing and deploy monitoring and alert systems with Grafana and Prometheus, which reduced MTTR"
+        [[params.experience.list.items]]
+        details = "Create ad-hoc Python applications to automate deployments."
+
+        [[params.experience.list]]
+        title = "Intern Systems Administrator"
+        dates = "Apr 2019 - Jun 2019"
+        company = "CESGA"
+        details = "Working in a data center. Improved traffic observability with PHP/Python automated reports and monitoring with Zabbix. Carrying out AC system mantaining."
+        [[params.experience.list.items]]
+        details = "Implementing monitoring services."
+        [[params.experience.list.items]]
+        details = "PHP and Python tools to create traffic reports."
+        [[params.experience.list.items]]
+        details = "Design VxLAN and BGP model for renew the data center nework."
+        [[params.experience.list.items]]
+        details = "Extended a Zabbix plugin for PostgreSQL."
+
+
+    [params.projects]
+        enable = false
+
+
+    [params.social]
+        enable = true
+
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/tecnobutrul"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/daniel-del-rio-figueira"
