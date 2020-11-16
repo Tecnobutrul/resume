@@ -115,7 +115,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
     [params.summary]
         enable = true
-        text = "Motivated systems administrator focused on automation and cloud environments. hands on experience automating infrastructure and managing, deploying and monitoring high availability applications. Capable to code scripts to automate tasks, consuming APIs. Proven ability to stablish and mantain excellent relationships with clients as well as with coworkers."
+        text = "Motivated systems administrator focused on automation and cloud environments. Hands on experience automating infrastructure and managing, monitoring applications deployed in a high available setup. Capable to code scripts to automate tasks, consuming APIs. Proven ability to stablish and mantain excellent relationships with clients as well as with coworkers."
 
     [params.experience]
         enable = true
