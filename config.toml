@@ -43,16 +43,16 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.skills.list.items]]
         details = "Kubernetes"
-        percentage = "85"
+        percentage = "80"
         [[params.skills.list.items]]
         details = "Python/Bash"
-        percentage = "90"
+        percentage = "85"
         [[params.skills.list.items]]
         details = "Grafana"
         percentage = "75"
         [[params.skills.list.items]]
         details = "Prometheus"
-        percentage = "85"
+        percentage = "75"
 
         [[params.skills.list.items]]
         details = "GCP/Azure"
@@ -65,13 +65,13 @@ googleAnalytics = "UA-XXXXXXX-Y"
         percentage = "75"
         [[params.skills.list.items]]
         details = "Docker"
-        percentage = "90"
+        percentage = "85"
 
     [params.aptitudes]
         enable = true
         [[params.aptitudes.list]]
         [[params.aptitudes.list.items]]
-        details = "Effective communication"
+        details = "Reliable"
         [[params.aptitudes.list.items]]
         details = "Team player"
         [[params.aptitudes.list.items]]
@@ -94,7 +94,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.languages.list]]
         name = "English"
-        level = "B1"
+        level = "PET Cambridge Certifcate"
         [[params.languages.list]]
         name = "Spanish"
         level = "Native"
@@ -138,7 +138,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Intern Systems Administrator"
         dates = "Apr 2019 - Jun 2019"
         company = "CESGA"
-        details = "Working in a data center. Improved traffic observability with PHP/Python automated reports and monitoring with Zabbix. Carrying out AC system mantaining."
+        details = "Working in a data center. Improved traffic observability with PHP/Python automated reports and monitoring with Zabbix. Carried out AC wire managing."
         [[params.experience.list.items]]
         details = "Implementing monitoring services."
         [[params.experience.list.items]]
