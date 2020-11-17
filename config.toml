@@ -144,7 +144,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.experience.list.items]]
         details = "PHP and Python tools to create traffic reports."
         [[params.experience.list.items]]
-        details = "Design VxLAN and BGP model for renew the data center nework."
+        details = "Design VxLAN and BGP model for renew the data center network."
         [[params.experience.list.items]]
         details = "Extended a Zabbix plugin for PostgreSQL."
 
