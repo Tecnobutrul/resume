@@ -121,8 +121,20 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
+        title = "Site Reliability Engineer"
+        dates = "Jan 2021 - Present"
+        company = "Passbolt"
+        details = "Managing and monitoring SaaS infraestructure on GKE. Also mantainer of different asset for on-premises installations (debian/ubuntu package, AWS AMI, OVA)."
+        [[params.experience.list.items]]
+        details = "Prepare Google cloud and AWS security to be SOC2 compliant."
+        [[params.experience.list.items]]
+        details = "Automatically build and test packer images using gitlab pipelines."
+        [[params.experience.list.items]]
+        details = "Improve SaaS observability to help developers on debugging tasks."
+
+        [[params.experience.list]]
         title = "Cloud Systems Administrator"
-        dates = "Jul 2019 - Present"
+        dates = "Jul 2019 - Jan 2021"
         company = "Prefapp Cloud Consulting"
         details = "Working in multiple projects, managing and monitoring their cloud infraestructure. Introduced devops practices such as gitops helping developers to easily deploy their code to diferent environments. Desing and develop Helm Charts deployed using CICD pipelines."
         [[params.experience.list.items]]
