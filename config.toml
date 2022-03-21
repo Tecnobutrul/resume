@@ -19,7 +19,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Daniel del Río Figueira"
-        tagline = "Systems Administrator"
+        tagline = "Site Reliability Engineer"
         #avatar = "avatar.png"
 
     [params.contact]
